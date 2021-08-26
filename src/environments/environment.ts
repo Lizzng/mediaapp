@@ -1,10 +1,20 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
 export const environment = {
-  production: false
+  production: false,
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ firebaseConfig: {
+  apiKey: "AIzaSyBiUQmBYIQNkH1Bxi5WAckakIpVnuPbvos",
+  authDomain: "yolopet-finalproject.firebaseapp.com",
+  projectId: "yolopet-finalproject",
+  storageBucket: "yolopet-finalproject.appspot.com",
+  messagingSenderId: "844521947975",
+  appId: "1:844521947975:web:3570d460bc4f1266abc262",
+  measurementId: "G-NVJB2V9LVH"
+  } 
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
